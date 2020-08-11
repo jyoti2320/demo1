@@ -1,0 +1,292 @@
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+body{
+	background-color:blue;
+	font-family:sans-sarif;
+}
+.nav-bar{
+	height:57px;
+	margin-bottom:20px;
+	top:0;
+	position:sticky;
+	background:white;
+	border-bottom:2px solid blue;
+	z-index=2; 
+}
+.form-control{
+	margin-top:9px;
+	margin-left:30px;
+	border:1px solid blue !important;
+	border-top-left-radius:20px !important;
+	border-bottom-left-radius:20px !important;
+	border-top-right-radius:20px !important;
+	border-bottom-right-radius:20px !important;
+	box-shadow:none !important;
+}
+.search-icon{
+	background-color:blue;
+	margin:9px 20px 13px -18px; 
+	border:4px solid  blue;
+	border-top-left-radius:0px !important;
+	border-bottom-left-radius:0px !important;
+	border-top-right-radius:20px !important;
+	border-bottom-right-radius:20px !important;
+	cursor:pointer;
+}
+.search-box{
+	display:inline-flex;
+	width:50%
+	
+}
+.menu{
+	width:40%;
+	height:60px;
+	float:right;
+}
+.menu ul{
+	display:inline-flex;
+	float:right;
+}
+.menu ul li{
+	border-left:1px solid white;
+	list-style-type:none;
+	padding:15px 35px;
+	text-align:center;
+	background-color:blue;
+	cursor:pointer;
+}
+.menu ul li a{
+	font-size:15px;
+	font-weight:bold;
+	color:white;
+	text-decoration:none;
+}
+
+
+/*---------------------------side-bar----------------------------*/
+
+.side-bar{
+	width: 15%;
+	height: 90%;
+	font-size:15px;
+	float: left;
+	background-color: gray;
+	z-index: 2;
+	text-decoration:none;
+	
+}
+
+.side-bar ul{
+	margin-left:10px;
+	
+}
+
+.side-bar ul li{
+	list-style-type:none;
+	font-weight:bold;
+	margin-top:10px;
+	cursor:pointer;
+	
+}
+
+.side-bar ul li:hover{
+	color:blue;
+}
+.side-bar ul li ul{
+	display:none;
+	z-index:10;
+	top:77px;
+	
+}
+.side-bar ul li:hover ul{
+	display:block;
+	height:400px;
+	margin-left:14%;
+	padding:0 100px 100px 10px;
+	position:fixed;
+	box-shadow:1px 1px 4px 1px rgpa(0,0,0,0.4);
+	background-color:gray;
+}
+.fa-angle-right{
+	margin-top:4px;
+	margin-right:8px;
+	float:right;
+	
+}
+#menu_btn , #close_btn{
+	font-size:30px;
+	color:blue;
+	margin:10px;
+	
+}
+.slider{
+	width:85%;
+	margin-left:15%;
+	padding:1 10px; 
+	
+}
+.carousel{
+	box-shadow:1px 1px 4px 1px rgba(0,0,0,0.5)
+}
+.carousel-indicators{
+	z-index:2 !important;
+}
+.feature-category{
+	margin:50px 0;
+	
+}
+.feature-category img{
+	width:100%;
+	padding:20px 0;
+	transition:1s;
+	cursor:pointer;
+}
+.feature-category img:hover{
+	transform:scale(1.1);
+}
+.title-box{
+	background-color:blue;
+	width:180px;
+	height:40px;
+	color:white;
+	padding:4px 10px;
+	margin-bottom:30px;
+	display:flex;
+}
+.title-box h2{
+	font-size:24px;
+}
+.title-box::after{
+	content:'';
+	border-top:40px solid blue;
+	border-right:50px solid transparent;
+	position:absolute;
+	display:flex;
+	margin-top:-4px;
+	margin-left:170px;
+}
+.product-top img{
+	width:100%;
+}
+.overlay-right{
+	display:block;
+	opacity:0;
+	position:absolute;
+	top:10%;
+	margin-left:0;
+	width:70px;
+}
+.overlay-right .fa{
+	cursor:pointer;
+	width:35px;
+	height:35px;
+	background-color: white;
+	color: black;
+	margin-top:5%;
+	margin-bottom:5%;
+	padding:7px;
+	font-size:20px;
+	
+}
+.overlay-right .btn-secondary{
+	background:none !important;
+	box-shadow:none !important;
+	border:none !important;
+
+	
+}
+.overlay-right{
+	display:block;
+	opacity:0;
+	position:absolute;
+	top:10%;
+	margin-left:0;
+	width:70px;
+}
+.overlay-right .fa{
+	cursor:pointer;
+	width:35px;
+	height:35px;
+	background-color: #fff;
+	color: #000;
+	margin-top:5%;
+	margin-bottom:5%;
+	padding:7px;
+	font-size:20px
+}
+.overlay-right .btn-secondary{
+	background:none !important;
+	box-shadow:none !important;
+	border:none !important;
+	
+}
+.product-top:hover .overlay-right{
+	opacity: 1;
+	margin-left: 5%;
+	transition: 0.5s;
+}
+
+.NEW product{
+	margin:50px 0;
+}
+.website-feature{
+	margin:60px 0;
+}
+.website-feature img{
+	width:20%;
+}
+.feature-text{
+	margin-top:10px;
+	float:right;
+	width:80%;
+	padding-left:-50px;
+}
+.feature-box{
+	padding-top:20px;
+}
+.footer{
+	margin-top:50px;
+	background-color:black;
+	color:white;
+}
+.footer h2{
+	font-size:15px;
+}
+.footer p{
+	font-size:12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
